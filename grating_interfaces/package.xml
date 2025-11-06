@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>grating_interfaces</name>
+  <version>0.0.1</version>
+  <description>Interfaces for grating detection</description>
+
+  <maintainer email="sj-desktop@todo.todo">hyunwoo</maintainer>
+  <license>Apache-2.0</license>
+
+  <!-- build -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <build_depend>rosidl_default_generators</build_depend>
+
+  <!-- run -->
+  <exec_depend>rosidl_default_runtime</exec_depend>
+
+  <!-- msg 안에서 builtin_interfaces/Time 썼으니까 -->
+  <depend>builtin_interfaces</depend>
+
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
